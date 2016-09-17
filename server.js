@@ -21,6 +21,14 @@ app.get('/article1', function (req, res) {
   res.send("article 1 requested");
 });
 
+app.get('/article2', function (req, res) {
+  res.send("article 2 requested");
+});
+
+app.get('/article3', function (req, res) {
+  res.send("article 3 requested");
+});
+
 
 
 
